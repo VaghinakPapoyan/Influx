@@ -1,0 +1,63 @@
+.contact_links
+{
+	margin-top: 208px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1 1 0px;
+	img
+	{
+		display: block;
+		width: 100%;
+	}
+	transition: 0.75s;
+	&.no-visible
+	{
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	&.visible
+	{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@media screen and (max-width: 1380px) 
+{
+	.contact_links
+	{
+		margin-top: 188px;
+	}
+}
+
+@media screen and (max-width: 1120px) 
+{
+	.contact_links
+	{
+		margin-top: 158px;
+	}
+}
+
+@media screen and (max-width: 920px) 
+{
+	.contact_links
+	{
+		margin-top: 120px;
+	}
+}
+
+@media screen and (max-width: 725px) 
+{
+	.contact_links
+	{
+		margin-top: 320px;
+	}
+}
+
+@media screen and (max-width: 520px) 
+{
+	.contact_links
+	{
+		margin-top: 350px;
+	}
+}

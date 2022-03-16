@@ -1,0 +1,58 @@
+.computer
+{
+    width: 78%;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -350px;
+
+    z-index: 2;
+    img
+    {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1380px) 
+{
+	.computer
+	{
+	    width: 85%;
+	    margin-top: -300px;
+	}
+}
+
+@media screen and (max-width: 1120px) 
+{
+	.computer
+	{
+	    width: 90%;
+	    margin-top: -275px;
+	}
+}
+
+@media screen and (max-width: 920px) 
+{
+	.computer
+	{
+	    width: 95%;
+	    margin-top: -225px;
+	}
+}
+
+@media screen and (max-width: 725px) 
+{
+	.computer
+	{
+	    width: 100%;
+	    margin-top: -160px;
+	}
+}
+
+@media screen and (max-width: 520px) 
+{
+	.computer
+	{
+	    margin-top: -120px;
+	}
+}

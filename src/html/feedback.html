@@ -1,0 +1,56 @@
+<section class="feedback container">
+	<div class="feedback_left no-visible">
+		<a href="">Testimonial</a>
+		<h2>What Say Our Client About Us</h2>
+		<div class="controls">
+			<div onclick="slider()" class="slider_control slider_left"><img src="@img/icons/icons.svg#arrow_left" class="svg-arrow-dims" alt="arrow"/></div>
+			<div onclick="sliderLeft()" class="slider_control slider_right"><img src="@img/icons/icons.svg#arrow_right" class="svg-arrow-dims" alt="arrow"/></div>
+		</div>
+	</div>
+	<div class="feedback_right no-visible">
+		<div class="feeback__cards">
+			<div class="circle circle1"></div>
+			<div class="circle circle2"></div>
+			@@include('feedback_card.html', 
+			{
+				'user__img': "user.png", 
+				'user__name': "Md Shamim Hossain", 
+				'user__prof': "UI/UX Designer", 
+				'feedback__text': "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+				order: "1" 
+			})
+			@@include('feedback_card.html', 
+			{
+				'user__img': "user.png", 
+				'user__name': "Md Shamim Hossain", 
+				'user__prof': "UI/UX Designer", 
+				'feedback__text': "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.", 
+				order: "2"
+			})
+			@@include('feedback_card.html', 
+			{
+				'user__img': "user.png", 
+				'user__name': "Md Shamim Hossain", 
+				'user__prof': "UI/UX Designer", 
+				'feedback__text': "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.", 
+				order: "3"
+			})
+			@@include('feedback_card.html', 
+			{
+				'user__img': "user.png", 
+				'user__name': "Md Shamim Hossain", 
+				'user__prof': "UI/UX Designer", 
+				'feedback__text': "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.", 
+				order: "4"
+			})
+			@@include('feedback_card.html', 
+			{
+				'user__img': "user.png", 
+				'user__name': "Md Shamim Hossain", 
+				'user__prof': "UI/UX Designer", 
+				'feedback__text': "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.", 
+				order: "5"
+			})
+		</div>
+	</div>
+</section>
